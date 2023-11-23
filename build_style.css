@@ -71,6 +71,7 @@
     height: 5vh;
     margin-top: 3vh;
     border-radius: 20px;
+    z-index:20;
 }
 #header{
     margin-left:20vw ;
