@@ -74,6 +74,27 @@ a{
     height: 55vh;
     align-items: center;
 }
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
 #profile{
     display: flex;
     justify-content: center;
