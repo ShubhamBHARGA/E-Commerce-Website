@@ -98,8 +98,8 @@ submitButton.addEventListener("click", function() {
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
-      console.log("Error occurred. Try again.");
-      window.alert("Error occurred. Try again.");
+      console.log("Wrong Password! Try again.");
+      window.alert("Wrong Password! Try again.");
     });
 });
 
